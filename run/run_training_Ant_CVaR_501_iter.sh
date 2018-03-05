@@ -1,0 +1,1 @@
+python scripts/imitate_mj.py --mode ga --data trajectories/expert_trajectories-Ant --limit_trajs 250 --data_subsamp_freq 20 --env_name Ant-v1 --log training_logs/ex_traj_filtering/ant_seventh_run_CVaR_filtering_lambda_0_75.h5 --max_iter 1001 --useCVaR --CVaR_Lambda_not_trainable --CVaR_Lambda_val_if_not_trainable 0.75

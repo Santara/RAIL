@@ -1,0 +1,65 @@
+Loading policy parameters from /snapshots/iter0000000 in ../training_logs/additiveStatePrior/no_step_trashing_with_bad_state_logging_policy.h5
+{u'CLASS': 'GROUP',
+ u'TITLE': '',
+ u'VERSION': '1.0',
+ u'hash': 'ac3e9507b7345204671d261b95d9ef4a54bb6b34'}
+Loading environment Humanoid-v1
+Gym version: 0.9.1
+[95mMDP observation space, action space sizes: 376, 17
+[0m
+[95mMax traj len is 1000[0m
+[95mLoading feedforward net specification[0m
+[
+  {
+    "type": "fc",
+    "n": 100
+  },
+  {
+    "type": "nonlin",
+    "func": "tanh"
+  },
+  {
+    "type": "fc",
+    "n": 100
+  },
+  {
+    "type": "nonlin",
+    "func": "tanh"
+  }
+]
+[95mAffine(in=376, out=100)[0m
+[95mNonlinearity(func=tanh)[0m
+[95mAffine(in=100, out=100)[0m
+[95mNonlinearity(func=tanh)[0m
+[95mAffine(in=100, out=17)[0m
+Reading GaussianPolicy/logstdevs_1_Da
+Reading GaussianPolicy/obsnorm/Standardizer/count
+Reading GaussianPolicy/obsnorm/Standardizer/mean_1_D
+Reading GaussianPolicy/obsnorm/Standardizer/meansq_1_D
+Reading GaussianPolicy/hidden/FeedforwardNet/layer_0/AffineLayer/W
+Reading GaussianPolicy/hidden/FeedforwardNet/layer_0/AffineLayer/b
+Reading GaussianPolicy/hidden/FeedforwardNet/layer_2/AffineLayer/W
+Reading GaussianPolicy/hidden/FeedforwardNet/layer_2/AffineLayer/b
+Reading GaussianPolicy/out/AffineLayer/W
+Reading GaussianPolicy/out/AffineLayer/b
+Saving traj samples to file: ../trajectories/HyperparamAnalysis/Every10th/iter0000000
+[95mSampling 50 trajectories of maximum length 1000[0m
+Average return: 115.263316917
+Terminated.
+Fitting the GMM with 5 components on the expert trajectories at ../trajectories/expert_trajectories-Humanoid
+Dataset size: 237128 transitions (250 trajectories)
+Average return: 9525.75615224
+
+Beginning the analysis...
+======================================================
+
+Generating 50 trajectories for policy iter0000000...
+Calculating scores...
+Dataset size: 1219 transitions (50 trajectories)
+Average return: 115.263316917
+<type 'numpy.ndarray'>
+Dataset size: 1219 transitions (50 trajectories)
+Average return: 115.263316917
+<type 'numpy.ndarray'>
+upper_bound_reward:  162.783203574
+Writing to file...

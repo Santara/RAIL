@@ -1,0 +1,1 @@
+python scripts/imitate_mj.py --mode ga --data trajectories/expert_trajectories-Humanoid --limit_trajs 300 --data_subsamp_freq 20 --env_name Humanoid-v1 --log training_logs/ex_traj_filtering/second_run_noCVaR_filtering.h5 --max_iter 1501 

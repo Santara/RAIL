@@ -1,0 +1,1 @@
+python scripts/run_rl_mj.py --env_name Humanoid-v1 --max_iter 100 --log training_logs/Torcs/torcs_debugging.h5

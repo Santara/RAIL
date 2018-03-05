@@ -1,0 +1,1 @@
+python scripts/imitate_mj.py --mode ga --data trajectories/expert_trajectories-Humanoid --limit_trajs 250 --data_subsamp_freq 2 --env_name Humanoid-v1 --log training_logs/vanilla_GAIL_datasumsample2.h5 --max_iter 1501 
