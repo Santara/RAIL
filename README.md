@@ -1,6 +1,6 @@
 # RAIL : Risk-Averse Imitation Learning #
 
-Codebase for [RAIL : Risk Averse Imitation Learning](https://arxiv.org/abs/1707.06658), presented at the [Deep Reinforcement Learning Symposium at NIPS 2017](https://sites.google.com/view/deeprl-symposium-nips2017) and appearing as Extended Abstract in [AAMAS-2018](http://celweb.vuse.vanderbilt.edu/aamas18/).   
+Codebase for [RAIL : Risk Averse Imitation Learning](https://arxiv.org/abs/1707.06658), presented at the [Deep Reinforcement Learning Symposium at NIPS 2017](https://sites.google.com/view/deeprl-symposium-nips2017) and published as Extended Abstract in [AAMAS-2018](http://celweb.vuse.vanderbilt.edu/aamas18/).   
 
 ---
 
