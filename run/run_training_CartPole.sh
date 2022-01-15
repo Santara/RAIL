@@ -1,1 +1,0 @@
-python scripts/imitate_mj.py --mode ga --data trajectories/expert_trajectories-CartPole-v0 --limit_trajs 10 --data_subsamp_freq 10 --env_name CartPole-v0 --log training_logs/CartPole/ga_iter_301_CVaR_lambda_0.75.h5 --max_iter 301 --useCVaR --CVaR_Lambda_not_trainable --CVaR_Lambda_val_if_not_trainable 0.75 --CVaR_lr 0.01 --CVaR_alpha 0.9

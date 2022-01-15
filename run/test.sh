@@ -1,1 +1,0 @@
-python scripts/imitate_mj.py --mode ga --data trajectories/expert_trajectories-Humanoid --limit_trajs 250 --data_subsamp_freq 20 --env_name Humanoid-v1 --log training_logs/after_fixing_sign/fifth_run_temporal_profiling.h5 --max_iter 50 --useCVaR --disc_CVaR_weight 1
