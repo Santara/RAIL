@@ -1,1 +1,0 @@
-python scripts/imitate_mj.py --mode ga --data trajectories/expert_trajectories-Humanoid --limit_trajs 250 --data_subsamp_freq 20 --env_name Humanoid-v1 --log training_logs/CVaR_ablation/weight-0.h5 --max_iter 200 --useCVaR --disc_CVaR_weight 0.0
